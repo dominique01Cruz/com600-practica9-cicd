@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
     "scripts": {
-    "test": "jest --runInBand",
+"test": "jest --runInBand --testPathIgnorePatterns int.test mora",
     "test:unit": "jest --testPathIgnorePatterns int.test",
     "test:int": "jest int.test --runInBand",
     "test:cov": "jest --coverage",
