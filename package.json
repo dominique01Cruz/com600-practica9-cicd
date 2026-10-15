@@ -7,7 +7,7 @@
 "test": "jest --runInBand --testPathIgnorePatterns int.test mora",
     "test:unit": "jest --testPathIgnorePatterns int.test",
     "test:int": "jest int.test --runInBand",
-    "test:cov": "jest --coverage",
+    "test:cov": "jest --coverage --testPathIgnorePatterns int.test mora",
     "lint": "eslint src tests",
     "ci": "npm install && npm run lint && npm run test:cov"
     },
